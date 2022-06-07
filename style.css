@@ -1,0 +1,65 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%) 
+}
+
+.container {
+    text-align: center;
+}
+
+.weniv_logo{
+    width: 244px;
+    margin: 72px auto;
+}
+
+.box {
+    width: 400px;
+    margin: 60px auto;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.title {
+    width: 73px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    margin: 8px auto;
+}
+
+.time {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn_start::after{
+    content: "";
+    background: url(./img/start-default.png);
+    background-size: cover;
+    display: inline-block;
+    height: 48px;
+    width: 112px;
+}
+
+.btn_reset::after {
+    content: "";
+    background: url(./img/reset-disabled.png);
+    background-size: cover;
+    display: inline-block;
+    height: 48px;
+    width: 112px;
+}
+
+footer {
+    text-align: center;
+}
